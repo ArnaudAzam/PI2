@@ -32,4 +32,5 @@ public:
 	double option_vega(double sigma);//for NR computations
 	double option_price(double sigma);//for NR computations
 	double newton_raphson(double,double,double);
+	double bissection(double, double, double,double);
 };

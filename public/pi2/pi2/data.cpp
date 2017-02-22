@@ -130,5 +130,22 @@ double Data::newton_raphson(double init,double epsilon,double estimation) {
 	return init;
 }
 
+double Data::bissection(double y_target, double m, double n, double epsilon) {
+	double x = 0.5 * (m + n);
+	double y = BlackScholespriceCall(x);
+	do {
+		if (y < y_target) {
+			m = x;
+		}
 
+		if (y > y_target) {
+			n = x;
+		}
+
+		x = 0.5 * (m + n);
+		y = BlackScholespriceCall(x);
+	} while (fabs(y - y_target) > epsilon);
+
+	return x;
+}
 
