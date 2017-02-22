@@ -2,9 +2,8 @@
     APPLICATION CONSOLE : Vue d'ensemble du projet pi2
 ========================================================================
 
-AppWizard a créé cette application pi2 pour vous.
 
-Ce fichier contient un résumé du contenu de chacun des fichiers qui constituent votre application pi2.
+Ce fichier contient un résumé du contenu de chacun des fichiers qui constituent l'application.
 
 
 pi2.vcxproj
@@ -25,6 +24,6 @@ StdAfx.h, StdAfx.cpp
 /////////////////////////////////////////////////////////////////////////////
 Autres remarques :
 
-AppWizard utilise des commentaires "TODO:" pour indiquer les parties du code source où vous devrez ajouter ou modifier du code.
+
 
 /////////////////////////////////////////////////////////////////////////////
